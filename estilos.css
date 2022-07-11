@@ -1,0 +1,160 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    color:#000;
+    background-color:#f1f1f1;
+}
+nav {
+    width:100%;
+    overflow:hidden;
+    color:#000;
+    background-color:#fff;
+    font-size:18px;
+}
+header {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    box-sizing: inherit;
+}
+section {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1532px;
+}
+footer {
+    display: block;
+    padding-top:32px;
+    padding-bottom:32px;
+    text-align: center;
+    margin-top:16px;
+    color:#fff;
+    background-color:#000;
+}
+input {
+    padding:8px;
+    display:block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:100%;
+    padding-top:16px;
+    padding-bottom:16px;
+    border:1px solid #ccc;
+}
+.imagen-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fila {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+img {
+    max-width: 100%;
+}
+.logo {
+    margin-right: 16px;
+}
+.item {
+    color: inherit;
+    padding:8px 16px;
+    width:auto;
+    border:none;
+    border:none;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+}
+.item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+.verde {
+    color:#fff;
+    background-color:#4CAF50;
+}
+.texto-verde {
+    color:#4CAF50;
+}
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    text-shadow: 5px 5px 5px lightgray;
+    background-color: rgba(76, 175, 80, 0.5);
+}
+.columna {
+    width: 49.99999%;
+    float: left;
+}
+.titulo-section {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.parrafo-section {
+    padding: 12px 24px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+.encuentrenos {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+}
+.enlace-redes:hover {
+    opacity:0.60;
+}
+.ficha {
+    padding:0 8px;
+    float:left;
+    width:30%;
+    margin-bottom:16px;
+    min-width: 330px;
+    min-height: 600px;
+}
+.imagen-ficha {
+    width: 100%;
+    vertical-align: middle;
+}
+.contenido-ficha {
+    padding:0.01em 16px;
+}
+.parrafo-ficha {
+    max-height: 90px;
+    overflow-y: auto;
+}
+.boton-ficha {
+    margin-bottom: 16px;
+    display: block;
+    width: 100%;
+    padding:8px 16px;
+}
+.bloque-oscuro {
+    margin: 32px 0;
+    color: #fff;
+    background-color: #000;
+    padding: 32px;
+    opacity: 0.60;
+}
+.bloque-oscuro:hover {
+    opacity: 1;
+}
